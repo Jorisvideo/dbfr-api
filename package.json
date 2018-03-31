@@ -15,13 +15,13 @@
   "license": "GPL-3.0",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "snekfetch": "^3.6.4",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "request-promise-native": "^1.0.5"
   },
-    "repository": "TheShooter71/dbfr-api",
+  "repository": "TheShooter71/dbfr-api",
   "bugs": {
     "url": "https://github.com/TheShooter71/dbfr-api/issues"
   },
   "homepage": "https://github.com/TheShooter71/dbfr-api#readme"
 }
-
