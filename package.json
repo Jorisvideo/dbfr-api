@@ -1,0 +1,29 @@
+{
+  "name": "dbfr-api",
+  "version": "0.0.1",
+  "description": "module npm dbfr",
+  "main": "index.js",
+
+  "keywords": [
+    "api",
+    "module",
+    "discord",
+    "node.js",
+    "npm",
+    "discord-js"
+  ],
+  "author": "Sworder",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "snekfetch": "^3.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheShooter71/dbfr-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheShooter71/dbfr-api/issues"
+  },
+  "homepage": "https://github.com/TheShooter71/dbfr-api#readme"
+}
