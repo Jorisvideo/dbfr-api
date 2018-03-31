@@ -7,7 +7,7 @@ dbfr-api est un module qui vous servira a poster les stats de vos bots sur l'API
 ```js
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var DBFR = require("./index.js");
+var DBFR = require("dbfr-api");
 const dbfr = new DBFR(client, 'Token discord bot fr');
 
 client.on("ready", () => {
