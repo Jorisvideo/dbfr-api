@@ -33,6 +33,8 @@ client.on('message', msg => {
     dbfr.get(args).then(r => { console.log(r) })
   }
 });
+
+client.login("BOT_TOKEN")
 ```
 ### Eris
 ```js
