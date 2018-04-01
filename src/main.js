@@ -13,7 +13,7 @@ class dbfr {
     this.post()
         setInterval(() => {
           this.post();
-        }, 60000);
+        }, 300000);
       });
     }
 
