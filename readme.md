@@ -40,8 +40,8 @@ const bot = new Eris("BOT_TOKEN");
 const DBFR = require("dbfr-api");
 const dbfr = new DBFR(bot, 'Token discord bot fr');
 bot.on("ready", () => {
-    const dbfr = new DBFR(client, 'Token discord bot fr');
-    console.log("Ready!");
+  const dbfr = new DBFR(client, 'Token discord bot fr');
+  console.log("Ready!");
 });
 bot.on("messageCreate", (msg) => {
   const args = msg.content.split(" ").slice(1);
