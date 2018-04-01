@@ -27,6 +27,8 @@ const dbfr = new DBFR(client, 'Token discord bot fr');
 
 client.on('message', msg => {
 
+let args = msg.content.split(" ").slice(1)
+
 if(msg.content.startsWith("test")){
 
 if(!args) return console.log("Erreur, pas d'argument");
