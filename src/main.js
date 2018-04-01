@@ -27,7 +27,7 @@ class dbfr {
         },
         url: `https://discordbots.fr/api/v1/bot/${this.client.user.id}`,
         json: true,
-        body: {"server_count": this.client.guilds.shardCount,
+        body: {"server_count": this.client.guilds.size,
 "server_shard": this.client.options.shardCount}
     }, function (err, resp, body) {
         console.log(body);
