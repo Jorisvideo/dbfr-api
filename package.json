@@ -1,6 +1,6 @@
 {
   "name": "dbfr-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module npm pour l'API discordbots.fr",
   "main": "index.js",
   "keywords": [
@@ -14,8 +14,6 @@
   "author": "Sworder",
   "license": "GPL-3.0",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "snekfetch": "^3.6.4",
     "request": "^2.85.0"
   },
     "repository": "TheShooter71/dbfr-api",
