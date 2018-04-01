@@ -1,6 +1,10 @@
 <div align="center">
   <br />
   <p>
+    <a href="https://discordbots.fr"><img src="https://cdn.discordapp.com/icons/344955119005073409/4869fc782e3cda2c517a0a07f31c06e8.png?width=512" width="546" alt="discordbots.fr" /></a>
+  </p>
+  <br />
+  <p>
     <a href="https://discord.gg/a78rvrj"><img src="https://discordapp.com/api/guilds/344955119005073409/embed.png" alt="Serveur Discord" /></a>
     <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/v/dbfr-api.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/dt/dbfr-api.svg?maxAge=3600" alt="NPM downloads" /></a>
