@@ -40,12 +40,15 @@ client.login("BOT_TOKEN")
 ```js
 const Eris = require("eris");
 const bot = new Eris("BOT_TOKEN");
+
 const DBFR = require("dbfr-api");
 const dbfr = new DBFR(bot, 'Token discord bot fr');
+
 bot.on("ready", () => {
   const dbfr = new DBFR(client, 'Token discord bot fr');
   console.log("Ready!");
 });
+
 bot.on("messageCreate", (msg) => {
   const args = msg.content.split(" ").slice(1);
   if(msg.content.startsWith === "test") {
@@ -53,6 +56,7 @@ bot.on("messageCreate", (msg) => {
     dbfr.get(args).then(r => { console.log(r) });
   }
 });
+
 bot.connect();
 ```
 
