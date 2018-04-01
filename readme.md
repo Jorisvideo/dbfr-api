@@ -36,6 +36,7 @@ client.on('message', msg => {
 ```
 ### Eris
 ```js
+const Eris = require("eris");
 const bot = new Eris("BOT_TOKEN");
 const DBFR = require("dbfr-api");
 const dbfr = new DBFR(bot, 'Token discord bot fr');
