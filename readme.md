@@ -1,7 +1,7 @@
 <div align="center">
   <br />
   <p>
-    <a href="https://discordbots.fr"><img src="https://cdn.discordapp.com/icons/344955119005073409/4869fc782e3cda2c517a0a07f31c06e8.png?width=512" width="546" alt="discordbots.fr" /></a>
+    <a href="https://discordbots.fr"><img src="https://cdn.discordapp.com/icons/344955119005073409/4869fc782e3cda2c517a0a07f31c06e8.png" width="100" height="100" alt="discordbots.fr" /></a>
   </p>
   <br />
   <p>
