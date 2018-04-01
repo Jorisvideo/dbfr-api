@@ -18,7 +18,10 @@ class dbfr {
     }
 
  async post(client, key) {
-     request.post({
+
+  try{
+
+      return await request.post({
         headers: {
             "Authorization": this.key,
         },
@@ -29,14 +32,23 @@ class dbfr {
     }, function (err, resp, body) {
         console.log(body);
 });
-  }
+
+  }catch(err){
+      throw err;
+     }
+    }
 
 
  async get(args) {
+
+  try{
+
   return new Promise((resolve, reject) => {
     request(`https://discordbots.fr/api/v1/bot/${args}`, (err, res, body) => {
 
-                    if(res.statusCode === 404) return console.log('[dbfr-api] Request Failed');
+                    if(res.statusCode === 503) return console.log('[dbfr-api] Request Failed, Erreur 503');
+
+                    if(res.statusCode === 404) return console.log('[dbfr-api] Request Failed, Erreur 404');
 
                     if(err || res.statusCode!== 200) return
 
@@ -46,9 +58,12 @@ class dbfr {
 
                       resolve(objet)
 
-     })
-  })
-}
+       })
+    })
+  }catch(err){
+      throw err;
+    }
+  }
 }
 
 module.exports = dbfr;
