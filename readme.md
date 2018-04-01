@@ -1,3 +1,15 @@
+<div align="center">
+  <br />
+  <p>
+    <a href="https://discord.gg/a78rvrj"><img src="https://discordapp.com/api/guilds/344955119005073409/embed.png" alt="Serveur Discord" /></a>
+    <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/v/dbfr-api.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/dt/dbfr-api.svg?maxAge=3600" alt="NPM downloads" /></a>
+  </p>
+  <p>
+    <a href="https://nodei.co/npm/dbfr-api/"><img src="https://nodei.co/npm/dbfr-api.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+  </p>
+</div>
+
 # Description
 dbfr-api est un module qui vous servira a poster les stats de vos bots sur l'API du site https://discordbots.fr/
 
