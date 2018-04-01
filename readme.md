@@ -15,6 +15,8 @@ const dbfr = new DBFR(client, 'Token discord bot fr');
 client.on("ready", () => {
   dbfr.post()
 });
+
+client.login("BOT_TOKEN")
 ```
 
 ## Example GET
@@ -25,6 +27,10 @@ const client = new Discord.Client();
 
 const DBFR = require("dbfr-api");
 const dbfr = new DBFR(client, 'Token discord bot fr');
+
+client.on("ready", () => {
+  console.log("Ready!");
+});
 
 client.on('message', msg => {
   const args = msg.content.split(" ").slice(1);
