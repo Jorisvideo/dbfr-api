@@ -19,6 +19,9 @@ dbfr-api est un module qui vous servira a poster les stats de vos bots sur l'API
 ## Installation
 `npm i dbfr-api`
 
+## IMPORTANT
+dbfr-api est un module compatible uniquement avec les libs en Java Script, tels que Discord.js ou Eris...
+
 ## Exemple POST
 ```js
 const Discord = require("discord.js");
@@ -101,5 +104,3 @@ bot.connect();
 "website":"https://celestia.takohell.com"
 }
 ```
-## IMPORTANT
-dbfr-api est un module compatible uniquement avec les libs en Java Script, tels que Discord.js ou Eris...
