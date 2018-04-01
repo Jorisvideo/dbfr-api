@@ -45,7 +45,6 @@ const DBFR = require("dbfr-api");
 const dbfr = new DBFR(bot, 'Token discord bot fr');
 
 bot.on("ready", () => {
-  const dbfr = new DBFR(client, 'Token discord bot fr');
   console.log("Ready!");
 });
 
