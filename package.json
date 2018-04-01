@@ -1,6 +1,6 @@
 {
   "name": "dbfr-api",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Le module officiel de l'API Discord Bot FR",
   "main": "index.js",
   "keywords": [
