@@ -1,10 +1,10 @@
 <div align="center">
   <p>
-    <a href="https://discordbots.fr"><img src="https://cdn.discordapp.com/icons/344955119005073409/4869fc782e3cda2c517a0a07f31c06e8.png" width="100" height="100" alt="discordbots.fr" /></a>
+    <a href="https://discordbots.fr"><img src="https://discordbots.fr/img/logo.svg" width="100" height="100" alt="discordbots.fr" /></a>
   </p>
   <br />
   <p>
-    <a href="https://discord.gg/a78rvrj"><img src="https://discordapp.com/api/guilds/344955119005073409/embed.png" alt="Serveur Discord" /></a>
+    <a href="https://discord.gg/h6vhJUy"><img src="https://discordapp.com/api/guilds/501017909389295616/embed.png" alt="Serveur Discord" /></a>
     <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/v/dbfr-api.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/dbfr-api"><img src="https://img.shields.io/npm/dt/dbfr-api.svg?maxAge=3600" alt="NPM downloads" /></a>
   </p>
@@ -86,21 +86,26 @@ bot.connect();
 
 ```json
 {
-"approved":true,
-"avatar":"https://cdn.discordapp.com/avatars/337997289484451840/8a9696c309c80a73c02efb74e0a72862.png?size=512",
-"categories":"musique",
-"count":29,
-"descitype":"<br />",
-"github":null,
-"id":"337997289484451840",
-"invite":"https://discordapp.com/oauth2/authorize?client_id=337997289484451840&scope=bot&permissions=1",
-"lib":"discord.js",
-"name":"Celestia",
-"owner":["285837115206402049","193090359700619264"],
-"prefix":"!",
-"shard":1,
-"shortDesc":"Bot modération et multilingue",
-"timestamp":1516445761441,
-"website":"https://celestia.takohell.com"
+  "approuved": false,
+  "lib": "discord.js",
+  "prefix": "!",
+  "invitelink": "https://discordapp.com/oauth2/authorize?client_id=337997289484451840&permissions=-1&scope=bot",
+  "supportserver": null,
+  "descriptcourt": "bot de moderation",
+  "descriptlong": "Bot de modération est de fun",
+  "descripvideo": null,
+  "siteweb": null,
+  "github": null,
+  "owner": [
+    "193090359700619264"
+  ],
+  "shards": null,
+  "server": null,
+  "vote": 0,
+  "_id": "337997289484451840",
+  "name": "Celestia",
+  "avatar": "https://cdn.discordapp.com/avatars/337997289484451840/8a9696c309c80a73c02efb74e0a72862?size=512",
+  "date": "2018-10-27T20:47:03.364Z",
+  "__v": 0
 }
 ```
