@@ -52,9 +52,10 @@ client.on("ready", () => {
 
 client.on('message', msg => {
   const args = msg.content.split(" ").slice(1);
+  const type = "user";//user ou bot (par defaut bot est choisi)
   if(msg.content.startsWith("test")){
     if(!args) return console.log("Erreur, pas d'argument");
-    dbfr.get(args).then(r => { console.log(r) })
+    dbfr.get(type, args).then(r => { console.log(r) })
   }
 });
 
@@ -74,16 +75,17 @@ bot.on("ready", () => {
 
 bot.on("messageCreate", (msg) => {
   const args = msg.content.split(" ").slice(1);
+  const type = "user";//user ou bot (par defaut bot est choisi)
   if(msg.content.startsWith === "test") {
     if(!args) return console.log("Erreur, pas d'argument");
-    dbfr.get(args).then(r => { console.log(r) });
+    dbfr.get(type, args).then(r => { console.log(r) });
   }
 });
 
 bot.connect();
 ```
 ### API
-
+## Vue d'un bot
 ```json
 {
   "approuved": false,
@@ -106,6 +108,26 @@ bot.connect();
   "name": "Celestia",
   "avatar": "https://cdn.discordapp.com/avatars/337997289484451840/8a9696c309c80a73c02efb74e0a72862?size=512",
   "date": "2018-10-27T20:47:03.364Z",
+  "__v": 0
+}
+```
+
+## Vue d'un utilisateur
+```json
+{
+  "bio": null,
+  "siteweb": null,
+  "google": null,
+  "facebook": null,
+  "twitter": null,
+  "youtube": null,
+  "linkeed": null,
+  "github": null,
+  "email": null,
+  "isProfilePublic": true,
+  "_id": "193090359700619264",
+  "name": "Kami-Sama",
+  "avatar": "https://cdn.discordapp.com/avatars/193090359700619264/6d528215062500aef2e586dbd014577e.png?size=512",
   "__v": 0
 }
 ```
